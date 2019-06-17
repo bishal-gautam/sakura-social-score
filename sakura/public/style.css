@@ -1,0 +1,309 @@
+
+
+
+.main-div {
+    width: 100%;
+    height: 100%;
+}
+
+.company-logo {
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+
+.search-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div input {
+    width: 800px;
+    height: 45px;
+    border-radius: 25px;
+    border-color: rgb(31,115,135);
+    outline:none;
+    text-align: center;
+    background: none;
+    color: rgb(31,115,135);
+    font-size: 20px;
+}
+
+.form-div label {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(31,115,135);
+}
+
+.form-div button {
+    width: 250px;
+    height: 35px;
+    margin-top: 30px;
+    color: white;
+    border: 2px solid rgb(31,115,135);
+    border-radius: 25px;
+    background-color: rgb(31,115,135);
+    font-size: 20px;
+    outline: none;
+}
+
+.button-details {
+    margin-left: 30px;
+}
+
+.button-search {
+    margin-right: 30px;
+}
+
+.form-div button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*  Landing Page */
+
+.landing-page-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page-div h1 {
+    font-size: 50px;
+    color: rgb(31,115,135);
+}
+
+.landing-page-div p {
+    font-size: 25px;
+    color: rgb(31,115,135);
+}
+
+/* Results  */
+
+.results-div {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.score-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+}
+
+.score-div p {
+    font-size: 40px;
+    color: #1A1A1A;
+}
+
+.best-tweet-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 20px;
+}
+
+/* Speach buuble */
+
+.speech-bubble {
+    background: rgb(29, 161, 242);
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    padding: 15px;
+    position: relative;
+}
+
+.speech-bubble p {
+    margin: 0 0 10px;
+    color: white;
+}
+.speech-bubble p:last-of-type {
+    margin-bottom: 0;
+}
+
+.speech-bubble::after {
+    border-left: 20px solid transparent;
+    border-top: 20px solid rgb(29, 161, 242);
+    bottom: -20px;
+    content: "";
+    position: absolute;
+    right: 20px;
+}
+
+/* Loader  */
+
+.loader-div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-div h2 {
+    font-size: 25px;
+    color: rgb(31,115,135);
+}
+
+/* Description */
+
+.risk-div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    z-index: 10;
+}
+
+.text-description-div {
+    padding: 100px;
+    width: 750px;
+
+}
+
+.text-description-div p {
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: #1A1A1A;
+}
+
+.feed-description-div {
+    
+}
+
+.feed-description-div h2 {
+    font-size: 25px;
+    color: rgb(31,115,135)
+}
+
+.subscribe-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.subscribe-div h2 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.subscribe-div input {
+    width: 300px;
+    height: 40px;
+    border-color: black;
+    outline:none;
+    text-align: center;
+    background: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.subscribe-div button {
+    width: 150px;
+    height: 40px;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: Transparent;
+    margin-right: 20px;
+}
+
+.subscribe-div button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: rgb(31,115,135);
+}
+
+.result-main-div {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Wave animation  */
+
+html, body { height: 100%; }
+body {
+  background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+  overflow: hidden;
+}
+
+.ocean {
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}

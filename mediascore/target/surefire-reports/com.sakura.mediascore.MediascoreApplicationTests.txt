@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sakura.mediascore.MediascoreApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.798 s - in com.sakura.mediascore.MediascoreApplicationTests
