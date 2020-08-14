@@ -9,6 +9,9 @@ This project was originally developed during **Humanitarian Hackathon-2019 organ
   * [Bishal Gautam](https://www.linkedin.com/in/bishal-gautam/) : Backend Developer (Java)
 
 ## Screenshot:
-![screenshot](http://i63.tinypic.com/345c1sj.png)
+#### Home page
+![screenshot](https://github.com/bishal-gautam/sakura-social-score/blob/master/assets/home_page.png?raw=true)
 
-## Installation instruction:
+#### Score page
+![screenshot](https://github.com/bishal-gautam/sakura-social-score/blob/master/assets/score_page.png?raw=true)
+
